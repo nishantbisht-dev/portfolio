@@ -15,7 +15,7 @@ export default function Contact() {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        // Prevent double click / duplicate message
+        
         if (loading) return;
 
         try {
@@ -23,13 +23,23 @@ export default function Contact() {
             setError("");
             setSent(false);
 
-            const response = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify(form),
-            });
+            // const response = await fetch(`${import.meta.env.VITE_API_URL}/api/contact`, {
+            //     method: "POST",
+            //     headers: {
+            //         "Content-Type": "application/json",
+            //     },
+            //     body: JSON.stringify(form),
+            // });
+
+            const API_URL = import.meta.env.VITE_API_URL.replace(/\/$/, "");
+
+const response = await fetch(`${API_URL}/api/contact`, {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+  },
+  body: JSON.stringify(form),
+});
 
             const data = await response.json();
 

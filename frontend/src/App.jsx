@@ -8,22 +8,22 @@ import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Services from "./sections/Services";
-import Testimonials from "./sections/Testimonials";
+import WorkValues from "./sections/WorkValues";
 import Contact from "./sections/Contact";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-white text-gray-900 dark:bg-black dark:text-white transition-colors duration-300">
+    <div className="min-h-screen bg-white text-gray-900 transition-colors duration-300 dark:bg-black dark:text-white">
       <Navbar />
 
-      <main className="max-w-6xl mx-auto px-4 scroll-smooth">
+      <main className="mx-auto max-w-6xl px-4">
         <Hero />
         <About />
         <Skills />
         <Projects />
         <Experience />
         <Services />
-        <Testimonials />
+        <WorkValues />
         <Contact />
       </main>
 

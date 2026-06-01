@@ -9,7 +9,7 @@ export const profile = {
     "I enjoy turning ideas into complete digital products — from designing clean frontend interfaces to creating secure APIs, database models, authentication flows, dashboards, and deployment-ready applications. My goal is to write code that is simple to understand, easy to maintain, and useful for real users.",
   email: "nishantbisht887@gmail.com",
   location: "Dehradun, Uttarakhand, India",
-  resumeUrl: "/Nishant_Bisht_Minimal_Professional_Resume.pdf",
+  resumeUrl: "/Nishant_Bisht.pdf",
   availability:
     "Available for internships, freelance projects, and full-time opportunities",
 };

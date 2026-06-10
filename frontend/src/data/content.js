@@ -83,6 +83,15 @@ export const projects = [
     github: "https://github.com/nishantbisht-dev/finance-tracker-app",
     featured: true,
   },
+  {
+    title: "MiniX",
+    category: "Full Stack",
+    description: "A mini Twitter/X-style social platform.",
+    tech: ["Next.js", "Typescript", "Firebase", "Node.js", "MongoDB", "Express.js", "Vercel", "Render"],
+    live: "https://mini-x-frontend-khast4xte-nishantbisht34s-projects.vercel.app/",
+    github: "https://github.com/nishantbisht-dev/miniX",
+    featured: true,
+  }
 ];
 
 export const experience = [

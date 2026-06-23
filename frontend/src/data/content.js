@@ -29,8 +29,7 @@ export const skills = {
   Frontend: [
     "React.js",
     "JavaScript",
-    "HTML5",
-    "CSS3",
+    "TypeScript",
     "Tailwind CSS",
     "Responsive Design",
     "Component-Based UI",
@@ -74,13 +73,13 @@ export const projects = [
     featured: true,
   },
   {
-    title: "Finance Tracker App",
+    title: "AI Resume Analyzer",
     category: "Full Stack",
     description:
-      "A finance tracking application designed to help users monitor income, expenses, and transaction history with a dashboard-style interface. It includes clean data organization, visual tracking sections, and a practical structure for real-world personal finance management.",
-    tech: ["React", "Node.js", "Express.js", "MongoDB", "Charts"],
-    live: "#",
-    github: "https://github.com/nishantbisht-dev/finance-tracker-app",
+      "AI Resume Analyzer is a full-stack MERN application that helps users analyze their resume against a job description using Google Gemini AI. Users can upload a PDF resume, paste a job description, and get an AI-generated match score, missing skills, strong skills, improvement suggestions, and better resume bullet points. The project includes JWT authentication, PDF text extraction, MongoDB-based report history, protected routes, and a modern glassmorphism UI.",
+    tech: ["React", "Node.js", "Express.js", "MongoDB", "Google Gemini API", "JWT Authentication", "Multer", "PDF-Parse", "Tailwind CSS"],
+    live: "https://ai-resume-analyzer-nine-rouge-57.vercel.app/",
+    github: "https://github.com/nishantbisht-dev/ai-resume-analyzer",
     featured: true,
   },
   {

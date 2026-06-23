@@ -1,4 +1,3 @@
-
 import { profile, socialLinks } from "../data/content";
 
 const footerLinks = [

@@ -38,6 +38,7 @@ export const skills = {
     "Node.js",
     "Express.js",
     "REST APIs",
+    "GraphQL",
     "JWT Authentication",
     "API Integration",
     "Middleware",
@@ -59,6 +60,22 @@ export const skills = {
     "Render",
     "Cloudinary",
   ],
+  Cloud: [
+    "AWS S3",
+  ],
+  APIs: [
+    "Razorpay",
+    "Cloudinary",
+    "Stripe",
+  ],
+  Core: [
+    "System Design Basics",
+    "REST/GraphQL API",
+    "Authentication & Authorization",
+    "Caching",
+    "Concurrency Handling",
+    "MVC Architecture",
+  ]
 };
 
 export const projects = [
